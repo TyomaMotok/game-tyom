@@ -1,0 +1,112 @@
+.main {
+    background-color: rgba(81, 0, 0, 0.9);
+    width: 800px;
+    margin: 0 auto;
+}
+.main__container {
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+.blocks {
+
+
+}
+
+.blocks img{
+    width: 150px;
+    max-height: 150px;
+}
+
+/* ------------------------------------------------ */
+
+.background,
+.back2,
+.back3,
+.back4,
+.back5{
+    width: 150px;
+    height: 150px;
+}
+
+.background:active, 
+.back2:active,
+.back3:active,
+.back4:active,
+.back5:active{
+    display: none;
+}
+
+.background{
+    background-color: rgb(77, 77, 206);
+}
+
+.back2{
+    background-color: rgb(3, 82, 56);
+}
+
+.back3{
+    background-color: rgb(153, 114, 64);
+}
+.back4{
+    background-color: rgb(78, 43, 0);
+}
+.back5{
+    background-color: rgb(30, 0, 0);
+}
+
+.blocks img{
+    display: none;
+}
+
+/* ------------------------------------ */
+
+.background:active + .first-img{
+    display: inline-block;
+}
+
+.back2:active + .second{
+    display: inline-block;
+}
+
+.back3:active + .third{
+    display: inline-block;
+}
+
+.back4:active + .fourth{
+    display: inline-block;
+}
+
+.back5:active + .fifth{
+    display: inline-block;
+}
+
+/* ------------------------------------ */
+
+
+.blocks * {
+    display: inline-block;
+}
+
+
+/*------------------------------------ */ 
+
+.first-img:target{
+    display: inline-block;
+}
+
+.second:target{
+    display: inline-block;
+}
+
+.third:target{
+    display: inline-block;
+}
+
+.fourth:target{
+    display: inline-block;
+}
+
+.fifth:target{
+    display: inline-block;
+}
